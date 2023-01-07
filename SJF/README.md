@@ -77,7 +77,7 @@ Average Waiting Time=1.333333
 Average Turnaround Time=4.000000
 
 
-**FCFS scheduling without arrival time**
+**SJF (Preemptive)**
 ```cpp
 #include <iostream>
 using namespace std;
