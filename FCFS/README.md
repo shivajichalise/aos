@@ -1,31 +1,3 @@
-<div class="container"
-  style="display: flex; flex-direction: column; justify-content: space-evenly; align-items: center;">
-
-  <h1>GANDAKI COLLEGE OF ENGINEERING AND SCIENCE</h1>
-
-  <div class="front" style="display: flex; justify-content: space-around; align-items: center; width: 20%;">
-    <div class="line1" style="border-left: 3px solid black; height: 15rem;"></div>
-    <div class="line2" style="border-left: 3px solid black; height: 20rem;"></div>
-    <div class="line1" style="border-left: 3px solid black; height: 15rem;"></div>
-  </div>
-
-  <p style="font-size: 1.6rem;">LAB 1: Implement FCFS Scheduling Algorithm</p>
-
-  <div class="details" style="display: flex; justify-content: space-around; align-items: center; width: 100%; ">
-    <div class="submitted-by">
-      <p style="font-size: 1.6rem;">Submited By:</p>
-      <p style="font-size: 1.4rem;">Shivaji Chalise</p>
-      <p>BE 2019 SE 685</p>
-    </div>
-    <div class="submitted-to">
-      <p style="font-size: 1.6rem;">Submited To:</p>
-      <p style="font-size: 1.4rem;">Er. Pratikshya Shrestha</p>
-      <p>Subject Teacher</p>
-    </div>
-  </div>
-
-</div>
-
 ### Lab 1
 #### **OBJECTIVE:** TO IMPLEMENT FCFS SCHEDULING WITH/WITHOUT ARRIVAL TIME
 **THEORY:** FCFS stands for First Come First Serve. It is an operating system scheduling algorithm that automatically executes queued requests and processes in order of their arrival. It is the easiest and simplest CPU scheduling algorithm. In this type of algorithm, processes which requests the CPU first get the CPU allocation first. This is managed with a FIFO (First In First Out) queue. FCFS is a non-preemptive scheduling algorithm as a process holds the CPU until it either terminates or performs I/O. Thus, if a longer job has been assigned to the CPU then many shorter jobs after it will have to wait. This algorithm is used in most batch operating systems.
