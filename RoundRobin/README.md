@@ -55,11 +55,11 @@ int main() {
 }
 ```
 #### Output
-Enter Total Process:     3
-Enter Arrival Time and Burst Time for Process Process Number 1 :0 2
-Enter Arrival Time and Burst Time for Process Process Number 2 :2 2
-Enter Arrival Time and Burst Time for Process Process Number 3 :1 3
-Enter Time Quantum:     2
+Enter Total Process:     3\
+Enter Arrival Time and Burst Time for Process Process Number 1 :0 2\
+Enter Arrival Time and Burst Time for Process Process Number 2 :2 2\
+Enter Arrival Time and Burst Time for Process Process Number 3 :1 3\
+Enter Time Quantum:     2\
 
 |Process |Turnaround Time|Waiting Time|
 |--|--|--|
@@ -67,7 +67,7 @@ Enter Time Quantum:     2
 |P[2]    |       2       |       0
 |P[3]    |       6       |       3
 
-Average Waiting Time= 1.000000
+Average Waiting Time= 1.000000\
 Avg Turnaround Time = 3.333333
 
 
