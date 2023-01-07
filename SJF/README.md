@@ -63,9 +63,9 @@
 Enter number of process:3
 
 Enter Burst Time:
-p1:2
-p2:1
-p3:5
+p1:2\
+p2:1\
+p3:5\
 
 |Process     |Burst Time          |Waiting Time    |Turnaround Time
 |--|--|--|--|
@@ -73,7 +73,7 @@ p3:5
 |p1                |2                 |1                   |3
 |p3                |5                 |3                   |8
 
-Average Waiting Time=1.333333
+Average Waiting Time=1.333333\
 Average Turnaround Time=4.000000
 
 
@@ -130,17 +130,17 @@ int main() {
 #### Output
 Enter the Total Number of Processes:    3
 
-Enter Details of 3 Processesn
-Enter Arrival Time:     1
+Enter Details of 3 Processes:
+Enter Arrival Time:     1\
 Enter Burst Time:       2
 
-Enter Arrival Time:     3
+Enter Arrival Time:     3\
 Enter Burst Time:       1
 
-Enter Arrival Time:     2
+Enter Arrival Time:     2\
 Enter Burst Time:       2
 
-Average Waiting Time:   0.666667
+Average Waiting Time:   0.666667\
 Average Turnaround Time:        2.333333
 
 **CONCLUSIONN:** Finally we understood and learned to implement SJF Scheduling Algorithm.
