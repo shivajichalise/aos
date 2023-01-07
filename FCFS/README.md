@@ -1,6 +1,6 @@
 ### Lab 1
 #### **OBJECTIVE:** TO IMPLEMENT FCFS SCHEDULING WITH/WITHOUT ARRIVAL TIME
-**THEORY:** FCFS stands for First Come First Serve. It is an operating system scheduling algorithm that automatically executes queued requests and processes in order of their arrival. It is the easiest and simplest CPU scheduling algorithm. In this type of algorithm, processes which requests the CPU first get the CPU allocation first. This is managed with a FIFO (First In First Out) queue.
+**THEORY:** FCFS stands for First Come First Serve. It is an operating system scheduling algorithm that automatically executes queued requests and processes in order of their arrival. It is the easiest and simplest CPU scheduling algorithm. In this type of algorithm, processes which requests the CPU first get the CPU allocation first. This is managed with a FIFO (First In First Out) queue. FCFS is a non-preemptive scheduling algorithm as a process holds the CPU until it either terminates or performs I/O. Thus, if a longer job has been assigned to the CPU then many shorter jobs after it will have to wait. This algorithm is used in most batch operating systems.
 
 **SOURCE CODE:**
 **FCFS scheduling with arrival time**

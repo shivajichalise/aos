@@ -1,6 +1,6 @@
 ### Lab 3
 #### **OBJECTIVE:** TO IMPLEMENT ROUND ROBIN SCHEDULING ALGORITHM
-**THEORY:** The Round-robin scheduling algorithm is a kind of preemptive First come First Serve CPU Scheduling algorithm where each process in the ready state gets the CPU for a fixed time in a cyclic way (turn by turn). It is the oldest scheduling algorithm, which is mainly used for multitasking.
+**THEORY:** The Round-robin scheduling algorithm is a kind of preemptive First come First Serve CPU Scheduling algorithm where each process in the ready state gets the CPU for a fixed time in a cyclic way (turn by turn). It is the oldest scheduling algorithm, which is mainly used for multitasking. A round-robin scheduling algorithm is used to schedule the process fairly for each job a time slot or quantum and the interrupting the job if it is not completed by then the job come after the other job which is arrived in the quantum time that makes these scheduling fairly.
 
 **SOURCE CODE:**
 ```c
